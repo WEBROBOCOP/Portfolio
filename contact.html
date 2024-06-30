@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Skills Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Navbar -->
+<nav class="bg-gray-800 p-4 text-white">
+    <ul class="flex justify-around">
+        <li><a href="index2.html" class="hover:underline">Home</a></li>
+        <li><a href="./about.html" class="hover:underline">About</a></li>
+        <li><a href="./career.html" class="hover:underline">Career</a></li>
+        <li><a href="./skills.html" class="hover:underline">Skills</a></li>
+        <li><a href="./contact.html" class="hover:underline">Contact</a></li>
+    </ul>
+</nav>
+<!-- End Navbar -->
+
+ <body>
+    <body class="bg-gray-100 text-gray-900 font-sans leading-relaxed">
+        <header class="bg-blue-900 text-white p-6">
+            <div class="container mx-auto">
+                <h1 class="text-4xl font-bold">David Etim</h1>
+                <p class="text-xl">Aspiring DevOps Engineer & Web Developer</p>
+            </div>
+        </header>
+       
+    <!-- Contact Section -->
+    <section id="contact" class="p-8 bg-gray-100">
+        <h2 class="text-4xl font-bold mb-4">Contact</h2>
+        <form action="https://formspree.io/f/xyzgyyqp" method="POST" class="mb-6">
+            <div class="mb-4">
+                <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                <input type="text" id="name" name="name" class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" name="email" class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                <textarea id="message" name="message" rows="4" class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required></textarea>
+            </div>
+            <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou">
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Send</button>
+        </form>
+        <div>
+            <h3 class="text-2xl font-bold mb-4">Follow Me</h3>
+            <div class="flex space-x-4 mb-4">
+                <a href="https://twitter.com/yourprofile" class="text-blue-500 hover:underline">Twitter</a>
+                <a href="https://www.linkedin.com/in/davidedwinetim" class="text-blue-700 hover:underline">LinkedIn</a>
+                <a href="https://github.com/WEBROBOCOP" class="text-gray-800 hover:underline">GitHub</a>
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Email Me</h3>
+            <a href="mailto:de488904@gmail.com" class="text-indigo-600 hover:underline">david.etim@dci-student.org</a>
+        </div>
+    </section>
+        </main>   
+</body>
+</html>

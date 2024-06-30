@@ -1,0 +1,139 @@
+/* *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+    /* height: 100vh; */
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+body {
+    margin: 0;
+    background: #1e242a;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+
+#text {
+    position: relative;
+    left: -100%;
+    animation: anim3 2s forwards 3s;
+}
+
+@keyframes anim3 {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+#container {
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    animation: anim4 2s forwards 2.5s;
+}
+
+#logo {
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg);
+}
+
+#logo img {
+    width: 50px;
+}
+
+#menu {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2px;
+    margin-right: 150px;
+    margin-top: 20px;
+    float: right;
+}
+
+#menu ul {
+    list-style: none;
+    color: white;
+    text-shadow: 2px 2px 4px #000000; 
+}
+
+#menu ul li {
+    display: inline-block;
+    margin-left: 100px;
+    
+}
+
+@keyframes anim4 {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+#navbar {
+overflow: hidden;
+background-color: #333;
+}
+/* 
+/* Navbar links */
+/* #menu a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+}
+
+/* Page content */
+.content {
+padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+padding-top: 60px;
+}
+
+@media (max-width: 768px) {
+    #box2 {
+        font-size: 2em;
+        top: 45vh;
+        width: 90%;
+        left: 5%;
+    }
+
+    @media (max-width: 480px) {
+    #box2 {
+        font-size: 1.5em;
+        top: 40vh;
+    }
+} */ */ */ */
